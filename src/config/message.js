@@ -1,0 +1,25 @@
+const message = {
+  AUTH_FAILED: "Authentication Failed.",
+  VERIFY_LINK: "Please Verify the Link Sended in Email.",
+  USER_REGISTERED: "User Registered Successfully.",
+  USER_VERIFIED: "User Verified Successfully",
+  NOT_EMPTY: "Field Should Not Be Empty.",
+  USER_EXIST: "User ALready Registered.",
+  USER_NOT_EXIST: "User Not Exist.",
+  PASSWORD_NOT_MATCH: "Password Not Matched. ",
+  LOGIN_FAILED: "Login Failed.",
+  LOGIN_SUCCESS: "Login Successfully.",
+  OTP_SEND: "OTP Send To The Mail",
+  EMAIL_EXIST: "Email Already Registered.",
+  OTP_NOT_MATCH: "OTP Not Matched.",
+  EMAIL_UPDATE: "Email Updated Successfully.",
+  DIFFERENT_PASS: "Password Must be Different From Old Password.",
+  PASS_MISMATCH: "Password Mismatch.",
+  PASS_CHANGE: "Password Changed.",
+  OTP_EXPIRED: "OTP Expired.",
+  FORM_CREATED: "New Form Created Successfully.",
+  FORM_UPDATE: "New Form Updated Successfully.",
+  FORM_DELETE: "New Form Deleted Successfully.",
+};
+
+export default message;
