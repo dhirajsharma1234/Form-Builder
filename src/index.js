@@ -21,7 +21,7 @@ app.use("/api/user", userRoutes);
 app.use("/api/user", profileRoutes);
 app.use("/api/form", formRoutes);
 
-//define port number
+//define port number here.
 const port = process.env.PORT || 8000;
 
 //server listen to the port
