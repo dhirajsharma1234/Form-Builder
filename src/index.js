@@ -8,7 +8,7 @@ import userRoutes from "./routes/userRoutes/userRoutes.js";
 import profileRoutes from "./routes/userRoutes/profileRoute.js";
 import formRoutes from "./routes/formRoutes/formRoute.js";
 
-//configuration
+//configuration here
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
